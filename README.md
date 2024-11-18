@@ -1,4 +1,4 @@
-# shortest-path-algorithms
+# Shortest-Path-Algorithms
 This repository contains implementations of various shortest path algorithms using C++. The primary goal of this project is to understand these algorithms' workings and their practical applications while exploring different data structures for graph representation.
 
 # Graph Theory Overview
