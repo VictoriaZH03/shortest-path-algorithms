@@ -7,12 +7,14 @@ This project addresses the shortest path problem: finding the path between two v
 
 # Implemented Algorithms
 The following shortest path algorithms are implemented in C++ using various graph representations:
-Algorithm	Description	Graph Representation
-Dijkstra's Algorithm	Single-source shortest path for graphs with non-negative weights	Adjacency Matrix, Adjacency List
-A* Search Algorithm	Shortest path search using heuristics to guide traversal, suitable for pathfinding applications	Adjacency List
-Yen's K-Shortest Paths Algorithm	Finds multiple shortest paths between two nodes in a graph, useful for routing optimization	Adjacency Matrix, Fibonacci Heap
-Graph Representations
 
-    Adjacency Matrix: Useful for dense graphs where memory efficiency is less of a concern.
-    Adjacency List: Preferred for sparse graphs due to lower memory usage.
-    Fibonacci Heap: Used in combination with Dijkstra's algorithm to optimize performance for certain graph types.
+| Algorithm              | Description | Graph Representation |
+| :---------------- | :------------: | :----: |
+| Dijkstra's Algorithm        | Single-source shortest path for graphs with non-negative edge weights   | Adjacency Matrix, Adjacency List |
+| A* Search Algorithm           | Shortest path search using heuristics to guide traversal, suitable for pathfinding applications   | Adjacency List |
+| Yen's K-Shortest Paths Algorithm    | Finds multiple shortest paths between two nodes in a graph, useful for routing optimization   | Adjacency Matrix, Fibonacci Heap |
+
+
+* Adjacency Matrix: Useful for dense graphs where memory efficiency is less of a concern.
+* Adjacency List: Preferred for sparse graphs due to lower memory usage.
+* Fibonacci Heap: Used in combination with Dijkstra's algorithm to optimize performance for certain graph types.
